@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gốm Lam – Quà tặng gốm thủ công, khắc tên người nhận</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="logo" href="#">Gốm Lam</a>
+  <nav>
+    <a href="#chon-qua">Chọn quà</a>
+    <a href="#san-pham">Sản phẩm</a>
+    <a href="#che-tac">Cách làm</a>
+    <a href="#hoi-dap">Hỏi đáp</a>
+  </nav>
+  <a class="btn btn-small" href="#tu-van">Nhờ xưởng chọn giúp</a>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Quà bằng gốm, khắc tên người nhận dưới đáy.</h1>
+    <p>Mỗi món được vuốt tay và tráng men lam tại xưởng ở Bát Tràng. Chọn theo dịp, ngân sách và người nhận. Xưởng gói quà và gửi tận nhà.</p>
+  </div>
+
+  <form class="finder" id="chon-qua" onsubmit="return false">
+    <h2>Bạn cần quà cho dịp nào?</h2>
+
+    <fieldset>
+      <legend>Dịp</legend>
+      <label><input type="radio" name="dip" checked><span>Tân gia</span></label>
+      <label><input type="radio" name="dip"><span>Sinh nhật</span></label>
+      <label><input type="radio" name="dip"><span>Cảm ơn thầy cô</span></label>
+      <label><input type="radio" name="dip"><span>Đối tác</span></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Ngân sách</legend>
+      <label><input type="radio" name="gia"><span>Dưới 300k</span></label>
+      <label><input type="radio" name="gia" checked><span>300k – 600k</span></label>
+      <label><input type="radio" name="gia"><span>Trên 600k</span></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Người nhận</legend>
+      <label><input type="radio" name="nguoi" checked><span>Bạn bè</span></label>
+      <label><input type="radio" name="nguoi"><span>Bố mẹ</span></label>
+      <label><input type="radio" name="nguoi"><span>Người yêu</span></label>
+      <label><input type="radio" name="nguoi"><span>Đồng nghiệp</span></label>
+    </fieldset>
+
+    <a class="btn" href="#san-pham">Xem 6 món gợi ý</a>
+  </form>
+</section>
+
+<ul class="trust">
+  <li><b>Đóng gói chống vỡ</b> Hộp cứng, lót giấy gói từng món</li>
+  <li><b>Vỡ khi giao, gửi lại miễn phí</b> Chỉ cần gửi ảnh trong 7 ngày</li>
+  <li><b>An toàn thực phẩm</b> Men không chì, dùng được lò vi sóng</li>
+  <li><b>Khắc tên miễn phí</b> Tối đa 20 ký tự</li>
+</ul>
+
+<section class="products" id="san-pham">
+  <div class="sec-head">
+    <h2>Gợi ý cho tân gia, 300k – 600k, tặng bạn bè</h2>
+    <p>Mỗi món ghi rõ hợp với ai và dùng vào việc gì, để bạn không phải đoán.</p>
+  </div>
+
+  <div class="grid">
+    <article class="card">
+      <div class="pic"><img src="coc.jpg" alt="Cốc trà có đĩa lót, men loang nâu đen" loading="lazy"></div>
+      <h3>Cốc trà men lam</h3>
+      <p class="why">Hợp tặng bạn mới dọn nhà. Cầm vừa tay, 200 ml.</p>
+      <p class="price">320.000đ <span class="tag">Khắc tên</span></p>
+    </article>
+    <article class="card">
+      <div class="pic"><img src="bat.jpg" alt="Bộ bát ăn cơm men ngọc xanh" loading="lazy"></div>
+      <h3>Bát ăn cơm men ngọc</h3>
+      <p class="why">Bán theo combo từ 4 cái.</p>
+      <p class="price">480.000đ <span class="tag">Khắc tên</span></p>
+    </article>
+    <article class="card">
+      <div class="pic"><img src="binh.jpg" alt="Bình cắm hoa cổ cao men sọc nâu" loading="lazy"></div>
+      <h3>Bình cắm hoa cổ cao</h3>
+      <p class="why">Hợp đặt ở kệ hay bàn làm việc. Cao 25 cm, cắm vài cành là đủ.</p>
+      <p class="price">560.000đ</p>
+    </article>
+    <article class="card">
+      <div class="pic"><img src="am.jpg" alt="Ấm trà nhỏ vẽ hoa sen" loading="lazy"></div>
+      <h3>Ấm trà nhỏ một người</h3>
+      <p class="why">Hợp tặng bố mẹ. Dung tích 350 ml, rót không đọng giọt.</p>
+      <p class="price">590.000đ <span class="tag">Khắc tên</span></p>
+    </article>
+    <article class="card">
+      <div class="pic"><img src="dia.jpg" alt="Đĩa nhỏ men xanh lá chấm trắng" loading="lazy"></div>
+      <h3>Đĩa đựng chìa khóa</h3>
+      <p class="why">Hợp đặt ngay cửa vào nhà mới. Nhỏ, nhẹ, dễ gửi xa.</p>
+      <p class="price">240.000đ</p>
+    </article>
+    <article class="card">
+      <div class="pic"><img src="hop.jpg" alt="Hộp quà hai hũ gốm hoa mai có nắp" loading="lazy"></div>
+      <h3>Hộp quà 2 cốc + khay</h3>
+      <p class="why">Đã gói sẵn, kèm thiệp viết tay. Hợp khi bạn cần quà gấp.</p>
+      <p class="price">590.000đ <span class="tag">Khắc tên</span></p>
+    </article>
+  </div>
+
+    <a class="more" href="#che-tac">
+        Xem thêm sản phẩm
+        <span class="arrow" aria-hidden="true"></span>
+    </a>
+</section>
+
+<section class="process" id="che-tac">
+  <div class="sec-head">
+    <h2>Một chiếc cốc mất 9 ngày mới đến tay bạn</h2>
+    <p>Làm thủ công nên mỗi món lệch nhau một chút. Đó là lý do nó khác hàng máy.</p>
+  </div>
+  <ol>
+    <li><b>Nhào đất</b> Đất được ủ và nhào cho hết bọt khí.</li>
+    <li><b>Vuốt trên bàn xoay</b> Thợ tạo dáng bằng tay, mỗi món mất 10–15 phút.</li>
+    <li><b>Phủ men lam</b> Nhúng men rồi phơi khô, vết men chảy mỗi món một khác.</li>
+    <li><b>Nung 1.250°C</b> Nung trong 12 giờ, nguội dần rồi mới kiểm tra từng món.</li>
+  </ol>
+</section>
+
+<section class="faq" id="hoi-dap">
+  <div class="sec-head">
+    <h2>Những điều người mua quà hay hỏi</h2>
+  </div>
+  <details open>
+    <summary>Màu thật có giống ảnh không?</summary>
+    <p>Gần giống, nhưng men lam đậm nhạt khác nhau giữa các mẻ nung. Nếu cần đúng một màu, hãy nhắn xưởng, xưởng sẽ chụp ảnh món thật trước khi gói.</p>
+  </details>
+  <details>
+    <summary>Tặng xa có sợ vỡ không?</summary>
+    <p>Mỗi món được bọc giấy, lót xốp và đặt trong hộp cứng. Nếu vẫn vỡ, xưởng gửi lại món mới, bạn không phải trả thêm phí.</p>
+  </details>
+  <details>
+    <summary>Bao lâu thì nhận được quà?</summary>
+    <p>Món có sẵn giao trong 2–4 ngày. Món khắc tên cần thêm 3 ngày. Nếu cần gấp, hãy ghi ngày nhận vào form bên dưới.</p>
+  </details>
+  <details>
+    <summary>Dùng hằng ngày có an toàn không?</summary>
+    <p>Có. Men không chì, đựng được đồ nóng, rửa tay hoặc máy rửa bát đều được. Không nên cho vào lò nướng.</p>
+  </details>
+</section>
+
+<section class="contact" id="tu-van">
+  <div class="contact-box">
+
+    <div class="contact-form">
+      <h2>Chưa biết tặng gì? Để xưởng chọn giúp</h2>
+      <p>Xưởng trả lời qua Zalo trong ngày, kèm ảnh món thật.</p>
+      <form onsubmit="return false">
+        <label>Tên của bạn <input type="text" placeholder="Nguyễn Văn A"></label>
+        <label>Zalo hoặc số điện thoại <input type="tel" placeholder="09xx xxx xxx"></label>
+        <label>Dịp tặng quà <input type="text" placeholder="Ví dụ: tân gia bạn thân"></label>
+        <label>Ngân sách <select><option>Dưới 300k</option><option selected>300k – 600k</option><option>Trên 600k</option></select></label>
+        <label class="wide">Điều bạn biết về người nhận <textarea rows="2" placeholder="Ví dụ: thích uống trà, thích màu xanh"></textarea></label>
+        <button class="btn wide" type="submit">Gửi yêu cầu chọn quà</button>
+        <p class="note wide">Gửi yêu cầu chưa phải đặt hàng. Bạn chỉ trả tiền sau khi đồng ý với món xưởng gợi ý.</p>
+      </form>
+    </div>
+
+    <aside class="visit">
+      <div class="map">
+        <iframe
+          src="https://maps.google.com/maps?q=20.9747,105.9120&z=16&output=embed"
+          title="Vị trí xưởng gốm Gốm Lam trên bản đồ"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="visit-info">
+        <p><b>Ghé xưởng xem tận tay</b><br>Xưởng gốm thủ công, 123 Phan Đăng Lưu, Phú Nhuận, TP. HCM · 8:00 – 18:00</p>
+        <a class="btn btn-small" href="https://www.google.com/maps?q=20.9747,105.9120" target="_blank" rel="noopener">Chỉ đường</a>
+      </div>
+    </aside>
+
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <b>Gốm Lam</b>
+  <span>Xưởng gốm thủ công, 123 Phan Đăng Lưu, Phú Nhuận, TP. HCM</span>
+  <span>Zalo: 0912 345 678 · Mở cửa 8:00 – 20:00</span>
+</footer>
+
+</body>
+</html>
